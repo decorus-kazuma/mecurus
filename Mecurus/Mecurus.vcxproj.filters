@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{7f57b0a5-c932-4cfb-8458-a6eee55bfd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml">
+      <UniqueIdentifier>{0ef24411-e611-4a56-b821-ba4c527dc853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{620ca5eb-e624-4140-86ff-60fcc1526f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\Tenhou">
+      <UniqueIdentifier>{f8a0f67a-2ea6-4e3e-9e82-f8a104f1b54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\Windows">
+      <UniqueIdentifier>{b66b15b8-969f-468d-b944-6fad6c97a847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Tenhou">
+      <UniqueIdentifier>{6b937d08-a439-40fe-aa95-4e966c924127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ed5afcad-0e19-4877-b3d2-9f2a6ddbac51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Setting">
+      <UniqueIdentifier>{521ce2b4-5294-4ecb-97ae-39368a66d6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{9da85b7a-2359-44b8-9b8b-9c3b7494ab78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7898965f-85b7-469e-a04b-87bb10127666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{e0431674-95ca-45ac-b339-99e834980011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protect">
+      <UniqueIdentifier>{21fe5d6f-6e11-4975-a1c6-6a09bd505449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw">
+      <UniqueIdentifier>{24b2af3d-1ace-4b5b-8307-a7ac362bc902}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mecurus.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Hook\Tenhou</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateWindow.cpp">
+      <Filter>Hook\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="MecurusDialog.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Protect.cpp">
+      <Filter>Protect</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Console</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginFunction.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="AppendMenu.cpp">
+      <Filter>Hook\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateThread.cpp">
+      <Filter>Hook\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyWindow.cpp">
+      <Filter>Hook\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="MecurusLayer.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWindowPos.cpp">
+      <Filter>Hook\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="MecLayer.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>Hook\Tenhou</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveWindow.cpp">
+      <Filter>Hook\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mecurus.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="lauxlib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.hpp">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="luaconf.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lualib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>헤더 파일\Tenhou</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMain.h">
+      <Filter>Hook\Tenhou</Filter>
+    </ClInclude>
+    <ClInclude Include="MecurusDialog.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="MecurusInformation.h">
+      <Filter>헤더 파일\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Protect.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugin.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="MecurusLayer.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="MecurusGlobal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="MecLayer.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mecurus.def">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="lua5.1.dll">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="lua51.dll">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="Console.h">
+      <Filter>Console</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mecurus.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lua5.1.lib">
+      <Filter>Lua</Filter>
+    </Library>
+    <Library Include="lua51.lib">
+      <Filter>Lua</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="IDB_BITMAP1">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
